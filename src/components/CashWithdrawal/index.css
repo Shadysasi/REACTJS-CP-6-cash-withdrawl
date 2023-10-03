@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  border-radius: 30px;
+  background-color: #150b3e;
+  padding: 40px;
+}
+.profile-card {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  padding: 40px 0px 10px 40px;
+}
+.profile-initial {
+  border-radius: 60px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 24px;
+  font-weight: bolder;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.profile-name {
+  font-size: 28px;
+  color: #d4d2db;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balance-card {
+  color: #585076;
+  width: 90%;
+  padding: 40px 0px 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.balance-text {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.total-card {
+  font-size: 34px;
+  color: #d4d2db;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.withdraw-card {
+  padding: 40px 0px 10px 40px;
+  color: #d4d2db;
+}
+.withdraw-text {
+  font-size: 30px;
+  color: #d4d2db;
+  font-weight: bolder;
+}
+.description {
+  color: #585076;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.card-button {
+  display: flex;
+  width: 95%;
+  padding: 0px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
